@@ -138,4 +138,47 @@ footer p a:hover {
 
 .home-title {
     font-family:'Barlow';
+    font-size: 2em;
+}
+
+.book, .join{
+    font-family:'Barlow';
+    font-size: 18px;
+    border-radius:5 px ;
+}
+
+.msg p{
+    font-family:'Barlow';
+    font-size: .8m ;
+    line-height: 1.5em;
+}
+body {
+    background-color:#ba5a31;
+    font-family: 'Barlow';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+
+.home-title{
+    margin-top: 10px
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+footer{
+    margin-top: 200px;
+}
+
+.card-img {
+    border: 10px solid white;
+}
+
+main section img {
+    box-sizing: border-box;
 }
