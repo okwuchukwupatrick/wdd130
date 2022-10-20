@@ -52,6 +52,7 @@ nav a:hover{
 
 .msg{
     background-color: white;
+    padding: 35px;
 }
 
 footer{
@@ -62,6 +63,7 @@ nav a{
     background-color:#e59f71 ;
     color:#0c0c0c;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -88,11 +90,13 @@ h4{
 .book:hover, .join:hover{
     background-color: #0c0c0c;
     color: #e59f71;
+    padding: 15px 30px;
 }
 
 .msg h2{
     background-color: #0c0c0c;
     color: white;
+    padding-bottom: 15px;
 }
 
 .msg p{
@@ -118,6 +122,7 @@ footer a:hover{
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo{
@@ -142,19 +147,20 @@ footer p a:hover {
 }
 
 .book, .join{
-    font-family:'Barlow';
+    font-family: 'Barlow,Inter,Tight';
     font-size: 18px;
     border-radius:5 px ;
+    padding: 15px 30px;
 }
 
 .msg p{
-    font-family:'Barlow';
+    font-family:'Barlow,Inter,Tight';
     font-size: .8m ;
     line-height: 1.5em;
 }
 body {
     background-color:#ba5a31;
-    font-family: 'Barlow';
+    font-family: 'Barlow,Inter,Tight';
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -173,6 +179,7 @@ h2 {
 
 footer{
     margin-top: 200px;
+    padding: 25px 50px;
 }
 
 .card-img {
@@ -181,4 +188,12 @@ footer{
 
 main section img {
     box-sizing: border-box;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+footer.social image{
+    padding-top: 15px;
 }
